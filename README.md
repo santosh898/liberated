@@ -8,6 +8,11 @@ Do the react native setup. https://reactnative.dev/docs/environment-setup
 
 Install VSCODE/VSCODIUM
 
+### Optional
+* Iterm for mac
+* Terminator for linux
+* Terminal (from store) for Windows
+
 ```
 yarn install
 ```

@@ -59,15 +59,17 @@ const Chat = () => {
     addDoc(collection(db, 'chats'), { _id, createdAt, text, user });
   }, []);
 
+  const avatarURL =
+    'https://gravatar.com/avatar/94d45dbdba988afacf30d916e7aaad69?s=200&d=mp&r=x';
   return (
     <GiftedChat
       messages={messages}
       showAvatarForEveryMessage={true}
       onSend={onSend}
       user={{
-        _id: auth?.currentUser?.email,
-        name: auth?.currentUser?.displayName,
-        avatar: auth?.currentUser?.photoURL,
+        _id: 'Pf0qiywfFGMi4ABFoJFbJo4Dn7v1',
+        name: 'auth?.currentUser?.displayName',
+        avatar: avatarURL,
       }}
     />
   );

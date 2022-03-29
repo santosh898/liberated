@@ -2,6 +2,9 @@
 #
 .DS_Store
 
+#Android SDK Path 
+android/local.properties
+
 # Xcode
 #
 build/
